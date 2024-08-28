@@ -39,7 +39,7 @@ const DekstopMenu = () => {
       </div>
 
       {/* Menus */}
-      <div className="relative flex justify-center w-full gap-2">
+      <div className="relative flex justify-center w-full">
         {MenuLinks.map((data, index) => (
           <NavigationMenu key={index}>
             <NavigationMenuList>

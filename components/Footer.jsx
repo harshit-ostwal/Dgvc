@@ -58,7 +58,7 @@ function Footer() {
 
             <h1 className="flex items-center gap-4 text-xl font-bold">{data.icon}{data.title}</h1>
 
-            <div className="flex flex-col gap-5 p-5">
+            <div className="flex flex-col gap-5 p-2">
 
               {data.links.map((data, index) => (
 
