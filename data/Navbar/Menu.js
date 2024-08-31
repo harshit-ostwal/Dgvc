@@ -1,4 +1,4 @@
-import { Home, User, Book, Layers, Calendar, FileText, DollarSign, GraduationCap, Briefcase, Search, Users, Laptop2, PhoneCall, Settings, Award, Info, CheckCircle, MessageCircleHeart, Globe2, Building, ClipboardCheck, BedSingle, Monitor } from "lucide-react";
+import { Home, User, Book, Layers, Calendar, FileText, DollarSign, GraduationCap, Briefcase, Search, Users, Laptop2, PhoneCall, Settings, Award, Info, CheckCircle, MessageCircleHeart, Globe2, Building, ClipboardCheck, BedSingle, Monitor, LibraryBig, Wand2, MessageSquareDot, Paperclip } from "lucide-react";
 
 export const MenuLinks = [
     {
@@ -235,15 +235,40 @@ export const MenuLinks = [
                 subHref: "/"
             },
             {
+                subIcon: <Book />,
+                subTitle: "E - Contents",
+                subHref: "/"
+            },
+            {
+                subIcon: <LibraryBig />,
+                subTitle: "Library",
+                subHref: "/"
+            },
+            {
+                subIcon: <Paperclip />,
+                subTitle: "OBE",
+                subHref: "/"
+            },
+            {
+                subIcon: <Wand2 />,
+                subTitle: "Extra Circular Activites",
+                subHref: "/"
+            },
+            {
+                subIcon: <MessageSquareDot />,
+                subTitle: "Feedback",
+                subHref: "/"
+            },
+            {
                 subIcon: <Monitor />,
                 subTitle: "Vaishnav LMS",
-                subHref: "https://dgvc.in/lms/login.php"
+                subHref: "/"
             },
             {
                 subIcon: <PhoneCall />,
                 subTitle: "Reach Us",
-                subHref: "/"
-            }
+                subHref: "/ReachUs"
+            },
         ]
     },
 ];

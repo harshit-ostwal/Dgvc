@@ -30,27 +30,27 @@ export const BannerLeftData = [
 
 export const BannerRightData = [
     {
-        title: "Home",
+        title: "IIC",
         href: "/",
         icon: <GraduationCap size={18} />
-    },
-    {
-        title: "Research",
-        href: "/",
-        icon: <DnaIcon size={18} />
-    },
-    {
-        title: "Alumni",
-        href: "/",
-        icon: <ToggleLeftIcon size={18} />
     },
     {
         title: "RTI",
         href: "/",
+        icon: <DnaIcon size={18} />
+    },
+    {
+        title: "NAAC",
+        href: "/",
+        icon: <ToggleLeftIcon size={18} />
+    },
+    {
+        title: "NBA",
+        href: "/",
         icon: <GraduationCap size={18} />
     },
     {
-        title: "Contact Us",
+        title: "NIRF",
         href: "/",
         icon: <AlertTriangleIcon size={18} />
     },

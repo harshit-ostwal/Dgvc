@@ -20,7 +20,7 @@ export function Slider() {
         >
             {SliderData.map((data, index) => (
                 <SwiperSlide key={index}>
-                    <Image src={data.imageUrl} alt="Dg Vaishnav College" className="w-full h-[13rem] sm:h-[20rem] md:h-[30rem] lg:h-[34rem] 2xl:h-[45rem]" fetchPriority="high" loading="eager" quality={100} />
+                    <Image src={data.imageUrl} alt="Dg Vaishnav College" className="w-full h-[13rem] sm:h-[16rem] md:h-[26rem] lg:h-[32rem] 2xl:h-[45rem]" fetchPriority="high" loading="eager" quality={100} />
                 </SwiperSlide>
             ))}
         </Swiper>
