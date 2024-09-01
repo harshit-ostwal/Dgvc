@@ -17,7 +17,9 @@ function ContactForm() {
                 <label htmlFor={"message"} className="text-sm font-medium text-primary-color">Message</label>
                 <textarea id="message" placeholder="Type Your Message..." className="text-color outline outline-1 outline-neutral-400 p-2 md:p-3 rounded-md w-[320px] sm:w-[450px] lg:w-[920px] min-h-[100px]" required={true} />
             </div>
-            <Button>Submit</Button>
+            <div>
+                <Button>Submit</Button>
+            </div>
         </form>
     )
 }

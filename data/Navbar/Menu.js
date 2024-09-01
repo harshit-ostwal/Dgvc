@@ -217,11 +217,11 @@ export const MenuLinks = [
     {
         icon: <Search />,
         title: "Research",
-        href: "/"
+        href: "/Research"
     },
     {
         icon: <Globe2 />,
-        title: "Other",
+        title: "Extra Links",
         href: "/",
         subMenu: [
             {
