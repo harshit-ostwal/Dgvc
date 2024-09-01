@@ -25,8 +25,8 @@ export default function RootLayout({ children }) {
         <NextTopLoader
           color="red"
           height={4}
-          initialPosition={0}
-          speed={500}
+          initialPosition={0.1}
+          speed={700}
           zIndex={1600}
           showSpinner={false}
           showAtBottom={false}
