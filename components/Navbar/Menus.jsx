@@ -12,7 +12,7 @@ import { Collapsible, CollapsibleContent, CollapsibleTrigger } from '../ui/colla
 
 function Menus() {
   return (
-    <div className="flex items-center justify-center w-full gap-4 p-5">
+    <div className="flex items-center justify-center w-full gap-4 p-5 border-b">
 
       {/* Dekstop */}
       <DekstopMenu />

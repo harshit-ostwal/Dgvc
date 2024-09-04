@@ -14,42 +14,47 @@ export const MenuLinks = [
             {
                 subIcon: <User />,
                 subTitle: "Secretary",
-                subHref: "/"
+                subHref: "/Authorities/Secretary"
             },
             {
                 subIcon: <User />,
                 subTitle: "Principal",
-                subHref: "/"
+                subHref: "/Authorities/Principal"
             },
             {
                 subIcon: <Users />,
                 subTitle: "Management Committee",
-                subHref: "/"
+                subHref: "/Authorities/ManagementCommittee"
             },
             {
                 subIcon: <Users />,
                 subTitle: "Governing Body",
-                subHref: "/"
+                subHref: "/Authorities/GoverningBody"
+            },
+            {
+                subIcon: <DollarSign />,
+                subTitle: "Academic Council",
+                subHref: "/Authorities/AcademicCouncil"
             },
             {
                 subIcon: <DollarSign />,
                 subTitle: "Finance Committee",
-                subHref: "/"
+                subHref: "/Authorities/FinanceCommittee"
             },
             {
                 subIcon: <Layers />,
                 subTitle: "Oranogram",
-                subHref: "/"
+                subHref: "/Authorities/Oranogram"
             },
             {
                 subIcon: <Settings />,
                 subTitle: "Strategic Development & Deployment",
-                subHref: "/"
+                subHref: "/Authorities/StrategicDevelopment&Deployment"
             },
             {
                 subIcon: <ClipboardCheck />,
                 subTitle: "Code Of Conduct",
-                subHref: "/"
+                subHref: "/Authorities/CodeOfConduct"
             }
         ]
     },
