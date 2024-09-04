@@ -232,7 +232,7 @@ export const MenuLinks = [
             {
                 subIcon: <DollarSign />,
                 subTitle: "College Fees",
-                subHref: "/"
+                subHref: "https://payments.billdesk.com/bdcollect/pay?p1=521&p2=17"
             },
             {
                 subIcon: <Users />,
@@ -267,7 +267,7 @@ export const MenuLinks = [
             {
                 subIcon: <Monitor />,
                 subTitle: "Vaishnav LMS",
-                subHref: "/"
+                subHref: "https://dgvc.in/lms/login.php"
             },
             {
                 subIcon: <PhoneCall />,

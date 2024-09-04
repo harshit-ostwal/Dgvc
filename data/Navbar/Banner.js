@@ -46,7 +46,7 @@ export const BannerRightData = [
     },
     {
         title: "NBA",
-        href: "/",
+        href: "https://mbadgvc.com/NBA.php",
         icon: <GraduationCap size={18} />
     },
     {
