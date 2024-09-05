@@ -2,275 +2,275 @@ import { Home, User, Book, Layers, Calendar, FileText, DollarSign, GraduationCap
 
 export const MenuLinks = [
     {
-        icon: <Home />,
+        icon: <Home size={18} />,
         title: "Home",
         href: "/"
     },
     {
-        icon: <User />,
+        icon: <User size={18} />,
         title: "Authorities",
         href: "/",
         subMenu: [
             {
-                subIcon: <User />,
+                subIcon: <User size={18} />,
                 subTitle: "Secretary",
                 subHref: "/Authorities/Secretary"
             },
             {
-                subIcon: <User />,
+                subIcon: <User size={18} />,
                 subTitle: "Principal",
                 subHref: "/Authorities/Principal"
             },
             {
-                subIcon: <Users />,
+                subIcon: <Users size={18} />,
                 subTitle: "Management Committee",
                 subHref: "/Authorities/ManagementCommittee"
             },
             {
-                subIcon: <Users />,
+                subIcon: <Users size={18} />,
                 subTitle: "Governing Body",
                 subHref: "/Authorities/GoverningBody"
             },
             {
-                subIcon: <DollarSign />,
+                subIcon: <DollarSign size={18} />,
                 subTitle: "Academic Council",
                 subHref: "/Authorities/AcademicCouncil"
             },
             {
-                subIcon: <DollarSign />,
+                subIcon: <DollarSign size={18} />,
                 subTitle: "Finance Committee",
                 subHref: "/Authorities/FinanceCommittee"
             },
             {
-                subIcon: <Layers />,
+                subIcon: <Layers size={18} />,
                 subTitle: "Oranogram",
                 subHref: "/Authorities/Oranogram"
             },
             {
-                subIcon: <Settings />,
+                subIcon: <Settings size={18} />,
                 subTitle: "Strategic Development & Deployment",
-                subHref: "/Authorities/StrategicDevelopment&Deployment"
+                subHref: "/Authorities/StrategicDevelopmentAndDeployment"
             },
             {
-                subIcon: <ClipboardCheck />,
+                subIcon: <ClipboardCheck size={18} />,
                 subTitle: "Code Of Conduct",
                 subHref: "/Authorities/CodeOfConduct"
             }
         ]
     },
     {
-        icon: <Book />,
+        icon: <Book size={18} />,
         title: "Departments",
         href: "/",
         subMenu: [
             {
-                subIcon: <Book />,
+                subIcon: <Book size={18} />,
                 subTitle: "Languages",
                 subHref: "/"
             },
             {
-                subIcon: <Book />,
+                subIcon: <Book size={18} />,
                 subTitle: "Arts",
                 subHref: "/"
             },
             {
-                subIcon: <Book />,
+                subIcon: <Book size={18} />,
                 subTitle: "Commerce",
                 subHref: "/"
             },
             {
-                subIcon: <Book />,
+                subIcon: <Book size={18} />,
                 subTitle: "Science",
                 subHref: "/"
             },
             {
-                subIcon: <Book />,
+                subIcon: <Book size={18} />,
                 subTitle: "Professional",
                 subHref: "/"
             }
         ]
     },
     {
-        icon: <Calendar />,
+        icon: <Calendar size={18} />,
         title: "Admission",
         href: "/",
         subMenu: [
             {
-                subIcon: <FileText />,
+                subIcon: <FileText size={18} />,
                 subTitle: "Prospectus 2024 - 2025",
                 subHref: "/"
             },
             {
-                subIcon: <Laptop2 />,
+                subIcon: <Laptop2 size={18} />,
                 subTitle: "Online Application Portal",
                 subHref: "/"
             },
             {
-                subIcon: <Calendar />,
+                subIcon: <Calendar size={18} />,
                 subTitle: "Counselling Schedule",
                 subHref: "/"
             },
             {
-                subIcon: <GraduationCap />,
+                subIcon: <GraduationCap size={18} />,
                 subTitle: "Programs",
                 subHref: "/"
             },
             {
-                subIcon: <Settings />,
+                subIcon: <Settings size={18} />,
                 subTitle: "Choice Based Credit System (CBCS)",
                 subHref: "/"
             },
             {
-                subIcon: <BedSingle />,
+                subIcon: <BedSingle size={18} />,
                 subTitle: "Hostel",
                 subHref: "/"
             }
         ]
     },
     {
-        icon: <Award />,
+        icon: <Award size={18} />,
         title: "IQAC",
         href: "/",
         subMenu: [
             {
-                subIcon: <Info />,
+                subIcon: <Info size={18} />,
                 subTitle: "About IQAC",
                 subHref: "/"
             },
             {
-                subIcon: <Users />,
+                subIcon: <Users size={18} />,
                 subTitle: "IQAC Members",
                 subHref: "/"
             },
             {
-                subIcon: <FileText />,
+                subIcon: <FileText size={18} />,
                 subTitle: "Annual Reports",
                 subHref: "/"
             },
             {
-                subIcon: <Calendar />,
+                subIcon: <Calendar size={18} />,
                 subTitle: "AQAR",
                 subHref: "/"
             },
             {
-                subIcon: <Settings />,
+                subIcon: <Settings size={18} />,
                 subTitle: "Quality Initiatives Of IQAC",
                 subHref: "/"
             },
             {
-                subIcon: <Book />,
+                subIcon: <Book size={18} />,
                 subTitle: "Academic Audit",
                 subHref: "/"
             },
             {
-                subIcon: <FileText />,
+                subIcon: <FileText size={18} />,
                 subTitle: "Minutes & Action Taken Report",
                 subHref: "/"
             },
             {
-                subIcon: <ClipboardCheck />,
+                subIcon: <ClipboardCheck size={18} />,
                 subTitle: "Institutional Policies & Procedures",
                 subHref: "/"
             },
             {
-                subIcon: <Globe2 />,
+                subIcon: <Globe2 size={18} />,
                 subTitle: "Institutional Distinctiveness",
                 subHref: "/"
             },
             {
-                subIcon: <CheckCircle />,
+                subIcon: <CheckCircle size={18} />,
                 subTitle: "Best Practices",
                 subHref: "/"
             },
             {
-                subIcon: <MessageCircleHeart />,
+                subIcon: <MessageCircleHeart size={18} />,
                 subTitle: "Feedback - IQAC",
                 subHref: "/"
             },
             {
-                subIcon: <Users />,
+                subIcon: <Users size={18} />,
                 subTitle: "Collaborative Activities",
                 subHref: "/"
             },
             {
-                subIcon: <Award />,
+                subIcon: <Award size={18} />,
                 subTitle: "Accreditations & Rewards",
                 subHref: "/"
             },
             {
-                subIcon: <FileText />,
+                subIcon: <FileText size={18} />,
                 subTitle: "UGC Undertaking",
                 subHref: "/"
             },
             {
-                subIcon: <Building />,
+                subIcon: <Building size={18} />,
                 subTitle: "IQAC Gallery",
                 subHref: "/"
             }
         ]
     },
     {
-        icon: <Briefcase />,
+        icon: <Briefcase size={18} />,
         title: "Placements",
         href: "/"
     },
     {
-        icon: <ClipboardCheck />,
+        icon: <ClipboardCheck size={18} />,
         title: "Examinations",
         href: "/"
     },
     {
-        icon: <Search />,
+        icon: <Search size={18} />,
         title: "Research",
         href: "/Research"
     },
     {
-        icon: <Globe2 />,
+        icon: <Globe2 size={18} />,
         title: "Extra Links",
         href: "/",
         subMenu: [
             {
-                subIcon: <DollarSign />,
+                subIcon: <DollarSign size={18} />,
                 subTitle: "College Fees",
                 subHref: "https://payments.billdesk.com/bdcollect/pay?p1=521&p2=17"
             },
             {
-                subIcon: <Users />,
+                subIcon: <Users size={18} />,
                 subTitle: "Alumni",
                 subHref: "/"
             },
             {
-                subIcon: <Book />,
+                subIcon: <Book size={18} />,
                 subTitle: "E - Contents",
                 subHref: "/"
             },
             {
-                subIcon: <LibraryBig />,
+                subIcon: <LibraryBig size={18} />,
                 subTitle: "Library",
                 subHref: "/"
             },
             {
-                subIcon: <Paperclip />,
+                subIcon: <Paperclip size={18} />,
                 subTitle: "OBE",
                 subHref: "/"
             },
             {
-                subIcon: <Wand2 />,
+                subIcon: <Wand2 size={18} />,
                 subTitle: "Extra Circular Activites",
                 subHref: "/"
             },
             {
-                subIcon: <MessageSquareDot />,
+                subIcon: <MessageSquareDot size={18} />,
                 subTitle: "Feedback",
                 subHref: "/"
             },
             {
-                subIcon: <Monitor />,
+                subIcon: <Monitor size={18} />,
                 subTitle: "Vaishnav LMS",
                 subHref: "https://dgvc.in/lms/login.php"
             },
             {
-                subIcon: <PhoneCall />,
+                subIcon: <PhoneCall size={18} />,
                 subTitle: "Reach Us",
                 subHref: "/ReachUs"
             },
