@@ -61,32 +61,32 @@ export const MenuLinks = [
     {
         icon: <Book size={18} />,
         title: "Departments",
-        href: "/",
+        href: "/Departments",
         subMenu: [
             {
                 subIcon: <Book size={18} />,
                 subTitle: "Languages",
-                subHref: "/"
+                subHref: "/Departments/Languages"
             },
             {
                 subIcon: <Book size={18} />,
                 subTitle: "Arts",
-                subHref: "/"
+                subHref: "/Departments/Arts"
             },
             {
                 subIcon: <Book size={18} />,
                 subTitle: "Commerce",
-                subHref: "/"
+                subHref: "/Departments/Commerce"
             },
             {
                 subIcon: <Book size={18} />,
                 subTitle: "Science",
-                subHref: "/"
+                subHref: "/Departments/Science"
             },
             {
                 subIcon: <Book size={18} />,
-                subTitle: "Professional",
-                subHref: "/"
+                subTitle: "Professionals",
+                subHref: "/Departments/Professionals"
             }
         ]
     },
