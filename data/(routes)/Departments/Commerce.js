@@ -1,4 +1,4 @@
-import { BriefcaseBusiness, Computer, School2 } from "lucide-react";
+import { Briefcase, Computer, School, DollarSign, FileText, Calculator } from "lucide-react";
 
 export const CommerceData = [
     {
@@ -7,48 +7,48 @@ export const CommerceData = [
         href: ""
     },
     {
-        icon: <BriefcaseBusiness size={64} />,
+        icon: <Briefcase size={64} />,
         title: "Department Of Corporate Secretaryship - Aided",
         href: ""
     },
     {
-        icon: <School2 size={64} />,
+        icon: <Calculator size={64} />,
         title: "Department Of Commerce - B.Com (Accounting & Finance)",
         href: ""
     },
     {
-        icon: <School2 size={64} />,
+        icon: <FileText size={64} />,
         title: "Department Of Commerce - B.Com (Hons.)",
         href: ""
     },
     {
-        icon: <School2 size={64} />,
+        icon: <DollarSign size={64} />,
         title: "Department Of Commerce - Bank Management",
         href: ""
     },
     {
-        icon: <School2 size={64} />,
+        icon: <School size={64} />,
         title: "Department Of Commerce - Self Financing",
         href: ""
     },
     {
-        icon: <School2 size={64} />,
+        icon: <Briefcase size={64} />,
         title: "PG Department Of Corporate Secretaryship - Self Financing",
         href: ""
     },
     {
-        icon: <School2 size={64} />,
+        icon: <FileText size={64} />,
         title: "PG Department Of Commerce - Marketing Management",
         href: ""
     },
     {
-        icon: <School2 size={64} />,
-        title: "PG Department Of Commerce - Finance & Taxation (Intergrated With UK ACCA)",
+        icon: <Calculator size={64} />,
+        title: "PG Department Of Commerce - Finance & Taxation (Integrated With UK ACCA)",
         href: ""
     },
     {
-        icon: <School2 size={64} />,
+        icon: <Computer size={64} />,
         title: "Department Of Commerce Computer Application",
         href: ""
     }
-]
+];

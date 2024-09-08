@@ -1,4 +1,4 @@
-import { BriefcaseBusiness, Computer, School2 } from "lucide-react";
+import { Briefcase, Computer, School, UserCheck, Newspaper, Dumbbell } from "lucide-react";
 
 export const ArtsData = [
     {
@@ -7,33 +7,33 @@ export const ArtsData = [
         href: ""
     },
     {
-        icon: <BriefcaseBusiness size={64} />,
+        icon: <UserCheck size={64} />,
         title: "Department Of Social Work - Aided",
         href: ""
     },
     {
-        icon: <School2 size={64} />,
+        icon: <Computer size={64} />,
         title: "Department Of Economics - Self Financing",
         href: ""
     },
     {
-        icon: <School2 size={64} />,
+        icon: <Briefcase size={64} />,
         title: "Department Of Human Resource Management - Self Financing",
         href: ""
     },
     {
-        icon: <School2 size={64} />,
+        icon: <UserCheck size={64} />,
         title: "Department Of Sociology - Self Financing",
         href: ""
     },
     {
-        icon: <School2 size={64} />,
-        title: "PG Department Of Journalism & Communincation - Self Financing",
+        icon: <Newspaper size={64} />,
+        title: "PG Department Of Journalism & Communication - Self Financing",
         href: ""
     },
     {
-        icon: <School2 size={64} />,
+        icon: <Dumbbell size={64} />,
         title: "PG Department Of Physical Education",
         href: ""
     }
-]
+];
